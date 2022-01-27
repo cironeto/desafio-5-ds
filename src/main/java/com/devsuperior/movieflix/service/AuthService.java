@@ -2,7 +2,6 @@ package com.devsuperior.movieflix.service;
 
 import com.devsuperior.movieflix.entity.User;
 import com.devsuperior.movieflix.repository.UserRepository;
-import com.devsuperior.movieflix.service.exception.ForbiddenException;
 import com.devsuperior.movieflix.service.exception.UnauthorizedException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
